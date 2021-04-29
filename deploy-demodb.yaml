@@ -116,7 +116,7 @@ objects:
             claimName: ${DATABASE_SERVICE_NAME}
         - name: sql-dump
           configMap:
-            name: customsql
+            name: demo4configmap
             
     triggers:
     - imageChangeParams:
